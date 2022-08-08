@@ -1,0 +1,200 @@
+*{
+    background-color: white;
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+/* default settings */
+hr{
+    opacity: 0.15;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html, body{
+    height: 100%;
+}
+
+
+/* Main CSS */
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.sidenav{
+    height: 100%;
+    width: 7%;
+    min-width: 70px;
+    display: flex;
+    flex-direction: column;
+    padding:15px 0 165px 6%;
+    justify-content: space-around;
+    margin-right: 0;
+    position: fixed;
+    
+}
+.sidenav a img{
+    width: 40px;
+    transition: 500ms;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.sidenav a img:hover {
+    background-color: #E1E8ED;
+
+}
+
+
+#new-tweet-logo{
+    width: 48px;
+
+
+}
+
+
+.profile-picture{
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 48px;
+
+}
+
+
+
+
+
+.sidenav a {
+    padding: 0 4px;
+    text-align: center;
+    
+    
+}
+
+/* SIDE-hr */
+
+.sidehr hr{
+
+    /* background-color: #F5F8FA; */
+    height: 100%;
+    position: fixed;
+    left: 14%;
+
+}
+
+
+
+
+
+
+/* main */
+.main{
+    margin-left: 14%;
+    width: 60%;
+}
+
+.new-tweet{
+    padding: 15px 25px;
+
+}
+
+/* new tweet top area */
+
+.new-tweet-top{
+    width: 100%;
+    align-items: center;
+}
+
+.new-tweet-top *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.new-tweet-top #star{
+    float: right;
+}
+.new-tweet-top img {
+
+    width: 25px;
+    height: 25px;
+}
+
+/* input the tewwt area */
+
+.tweet-area{
+    display: flex;
+
+}
+.tweet-area img{
+    width: 50px;
+}
+
+.tweet-area input{
+    margin-left:20px;
+    resize: none;
+    outline: none;
+}
+
+
+.icons-new-tweet *{
+    display: inline;
+}
+.icons-new-tweet .icons {
+    margin-left:10%;
+}
+.icons-new-tweet .icons img{
+    width: 25px;
+    padding:8px;
+    border-radius: 50%;
+    transition: 350ms;
+}
+.icons-new-tweet .icons img:hover {
+    cursor: pointer;
+    background-color: rgba(29, 161, 242, 0.1);
+
+}
+
+button{
+    border-radius: 25px;
+    margin-bottom: auto;
+    margin-top: auto;
+    float: right;
+    padding:5px 25px;
+    display: inline;
+    background-color:rgba(29, 161, 242, 1);
+    color: white;
+    font-weight:500;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.main hr{
+    width: 100%;
+}
+
+.sidehr-main hr{
+    height: 100%;
+        position: fixed;
+        left: 74%;
+}
+
+.show-new{
+    padding: 20px 0;
+    text-align: center;
+    
+    color: rgba(29, 161, 242, 1);;
+}
+
+.show-new h1{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight:400;
+    vertical-align: middle;
+}
