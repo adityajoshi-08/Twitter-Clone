@@ -14,6 +14,7 @@ a{
 }
 html, body{
     height: 100%;
+    min-width: 480px;
 }
 
 
@@ -189,7 +190,7 @@ button{
     padding: 20px 0;
     text-align: center;
     
-    color: rgba(29, 161, 242, 1);;
+    color: rgba(29, 161, 242, 1);
 }
 
 .show-new h1{
@@ -198,3 +199,141 @@ button{
     font-weight:400;
     vertical-align: middle;
 }
+
+.right-area{
+    width: 20%;
+    padding: 3px 25px 0 15px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.right-area input{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 30px;
+    padding: 15px 15px 15px 50px;
+    border: none;
+    background-color: #F5F8FA;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+    background-image: url(images/search-icon.png);
+    background-size: 30px;
+    background-position: 5%;
+    background-repeat: no-repeat;
+}
+.trending-card *{
+    background: none;
+
+}
+.trending-card h3{
+    background: none;
+    font-weight:bolder;
+    font-size: 18px;
+
+
+}
+
+.trending-card{
+    padding: 10px 8px;
+    margin-top: 25px;
+    background-color: #F5F8FA;
+    border-radius: 15px;
+   
+}
+
+.trending-topics{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.trending-topics .text-area p{
+    /* font-weight: 100; */
+    font-size: 14px;
+    color: #657786;
+    
+}
+.trending-topics .text-area p span{
+    /* font-weight: 100; */
+    color: rgba(29, 161, 242, 0.9);;
+
+}
+.trending-topics .text-area h4 {
+    /* font-weight: 100; */
+    font-weight: 700;
+
+}
+
+.trending-topics .image-area img{
+    /* font-weight: 100; */
+    width: 80px;
+    height: 70px;
+    border-radius: 15px;
+    padding-left: 5px;
+
+}
+
+.show-new-trending {
+    padding-top: 20px;
+    text-align: left;
+    color: rgba(29, 161, 242, 1);
+}
+.show-new-trending a{
+
+
+    color: rgba(29, 161, 242, 1);
+}
+
+
+/* who to follow part */
+
+.person{
+    display: flex;
+    margin-top: 22px;
+    width: 100%;
+}
+
+.person-name{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.person button{
+    background-color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+
+
+@media(max-width:480px){
+    .sidenav{
+        padding: 15px 0 165px 0;
+    }
+
+    .sidehr {
+        left: 12%;
+        overflow: none;
+    }
+
+    .icons img{
+        width:10px;
+        padding: 5px;
+    }
+
+    .main{
+        width: 90%;
+    }
+        .sidehr-main hr{
+            
+            height: 0;
+            width: 0;
+        }
+}
+
